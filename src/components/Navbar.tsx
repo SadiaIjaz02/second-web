@@ -9,7 +9,9 @@ function Navbar() {
         
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            
+            
+            {/* <i className="fas fa-stream navbar-toggler-icon mt-10"></i> */}
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -24,18 +26,11 @@ function Navbar() {
         <div className="navbar navbar-expand-lg navbar-light" style={{ width: 'auto', height: '10%' }}>
             <nav className="navbar navbar-expand-lg navbar-light container" aria-label="breadcrumb">
                 <div className="contact-info d-flex align-items-center">
-                    
-                    <div style={{justifyContent:'space-between'}}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
-                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                        </svg>
+                    <div>
                         <i className="bi bi-envelope"></i> <a style={{marginLeft:"10px", marginRight: "20px"}}>contact@example.com</a>
                     </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">
-                        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                    </svg>
-                    <span style={{marginLeft:"10px"}}>+1 5589 55488 55</span>
+                    <i className="bi bi-phone"></i>
+                    <span>+1 5589 55488 55</span>
                 </div>
             </nav>
         </div>
@@ -44,57 +39,67 @@ function Navbar() {
 
 
 
+
+
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" style={{marginLeft:"70px", fontSize:"30px", fontWeight:"bold", color:"#0F155D"}}>Medilab</a>
             
-
-            <div className="collapse navbar-collapse float-right" id="navbarSupportedContent" >
+            <div className="d-flex ms-auto">
             
-                <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Home</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Services</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Department</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="#">Doctors</a>
-                    </li>
+        
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+                </button>
 
-                    <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                        </a>
-                        <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="#">Action</a>
-                        <a className="dropdown-item" href="#">Another action</a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    
+                <div className="collapse navbar-collapse float-right" id="navbarSupportedContent" >
                     
 
-                    <li className="nav-item">
-                        <a className="nav-link">Contact</a>
-                    </li>
-                </ul>
-                
+                    
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">About</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Services</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Department</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">Doctors</a>
+                        </li>
 
-                
-                
-                <div>
-                    <button type="button" className="btn btn-primary rounded-pill">Make an Appointment</button>
-                    <i className="bi bi-list mobile-nav-toggle"></i>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a className="dropdown-item" href="#">Action</a>
+                            <a className="dropdown-item" href="#">Another action</a>
+                            <div className="dropdown-divider"></div>
+                            <a className="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        
+                        
+
+                        <li className="nav-item">
+                            <a className="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    
+
                 </div>
+                    
+                <button type="button" className="btn btn-primary rounded-pill">Make an Appointment</button>
+                
             </div>
         </nav>
+
+        
     </div>
   )
 }
