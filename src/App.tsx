@@ -5,15 +5,18 @@ import MainBody from './components/MainBody';
 import Cards from './components/Cards';
 import VideoSection from './components/VideoSection'
 import Counts from './components/Counts'
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.min.css";
-// Bootstrap Bundle JS
-import "bootstrap/dist/js/bootstrap.bundle.min";
+import Services from './components/Services'
+import Appointment from './components/Appointment';
+import Departments from './components/Departments';
+import Doctors from './components/Doctors';
+import Questions from './components/Questions';
+import Testimonial from './components/Testimonial';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
+import "bootstrap/dist/css/bootstrap.min.css";// Bootstrap CSS
+import "bootstrap/dist/js/bootstrap.bundle.min";// Bootstrap Bundle JS
 import './index.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
-
-
-
 
 
 function App() {
@@ -24,6 +27,15 @@ function App() {
       <Cards/>
       <VideoSection/>
       <Counts/>
+      <Services/>
+      <Appointment/>
+      <Departments/>
+      <Doctors/>
+      <Questions/>
+      <Testimonial/>
+      <Gallery/>
+      <Contact/>
+      
 
 
 

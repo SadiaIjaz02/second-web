@@ -73,6 +73,18 @@ code {
   object-fit: cover;
 }  */
 
+.doctorimg{
+  overflow: hidden;
+  width: 200px;
+  border-radius: 50%;
+}
+.socialIcon{
+  background-color: steelblue;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+}
 .myicon{
   font-size: 30px;
 }
@@ -81,9 +93,46 @@ code {
   background: rgb(241, 247, 253);
   padding: 70px 0px 60px;
 }
+.counts .count-box {
+  padding: 30px 30px 25px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+.counts .count-box i {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -5%;
+  font-size: 25px;
+  background: rgb(25, 119, 204);
+  color: white;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-box-2 {
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  margin-top: 5%;
+  box-shadow: 20px;
+}
+.iconicon{
+  background-color: #0d6efd;;
+  padding: 4%;
+  font-size: 25px;
+  border-radius: 5px;
+  color: white;
+}
+
 
 .wrapper{
-  padding:6.35rem 0 0 0;
+  padding:4rem 0 0 0;
 }
 .man-btn{
   display: inline-block;
@@ -91,23 +140,21 @@ code {
   color:var(--text-white);
 }
 
-@keyframes movebounce{
-  0%{
-    -webkit-transform: translateY(0);
-    transform: translate(0);
-  }
-  50%{
-    -webkit-transform: translateY(1.25);
-    transform: translate(1.25rem);
-  }
-  100%{
-    -webkit-transform: translateY(0);
-    transform: translate(0);
-  }
-}
-@media(max-width: 1199.55px){
-  .card{
-    padding: 2px;
-  }
+.appoint {
+  background: rgb(241, 247, 253);
+  padding: 4rem;
+  margin-top: 60px;
 }
 
+
+.faq-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+  margin-top: 20px;
+}
+.qicon{
+  font-size: 20px;
+  color: rgb(67, 67, 255);
+}
