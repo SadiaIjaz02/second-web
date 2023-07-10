@@ -158,3 +158,36 @@ code {
   font-size: 20px;
   color: rgb(67, 67, 255);
 }
+.cicon{
+  font-size: 30px;
+  color: rgb(67, 67, 255);
+  border-radius: 80px;
+  background-color: aquamarine;
+  padding-right : 5PX;
+  padding-left : 5PX;
+  margin: 25px;
+  
+}
+.Eform{
+  margin-top: 30px;
+  background: white;
+  padding: 6px 10px;
+  border-radius: 50px;
+  text-align: left;
+  border: 1px solid #bfdcf7;
+}
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.Timg{
+  width: 90px;
+    border-radius: 10px;
+    position: absolute;
+    left: -45px;
+}

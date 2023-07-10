@@ -13,11 +13,11 @@ import Questions from './components/Questions';
 import Testimonial from './components/Testimonial';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import End from './components/End';
 import "bootstrap/dist/css/bootstrap.min.css";// Bootstrap CSS
 import "bootstrap/dist/js/bootstrap.bundle.min";// Bootstrap Bundle JS
 import './index.css'
 import "bootstrap-icons/font/bootstrap-icons.css";
-
 
 function App() {
   return (
@@ -35,8 +35,9 @@ function App() {
       <Testimonial/>
       <Gallery/>
       <Contact/>
+      <End/>
       
-
+      
 
 
     </div>
